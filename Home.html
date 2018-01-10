@@ -1,0 +1,58 @@
+﻿<html>
+<head>
+    <title>MCQ using AngularJS</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="Home.js"></script>
+
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCntrl">
+        <input ng-disabled="questionsLoaded" type="file" id="uploadFile" onchange="fileNameChanged(this)" />
+        <button ng-disabled="questionsLoaded" ng-click="Import()">Import questions</button> <br /><br />
+        <div ng-show="showLanguage">Select programming language: <select ng-disabled="disableLanguage" ng-model="language" ng-options="x for x in all_languages"></select> <br /> <br /> </div>
+        <button ng-disabled="!questionsLoaded" ng-click=" GetNextQuestion()">Get Next Question </button> <br /><br />
+        <table>
+            <tr>
+                <td> Question: </td>
+                <td><div id="questionTitle"></div> </td>
+                <td><div ng-show="showScore && language == 'c++'"><font size="4" color="green">  your score is {{yourScore}} from total score of {{totalCppScore}}, number of correct answers is {{correctAnswers}} </font> </div></td>
+                <td><div ng-show="showScore && language == 'python'"><font size="4" color="green">  your score is {{yourScore}} from total score of {{totalPythonScore}}, number of correct answers is {{correctAnswers}} </font> </div></td>
+            </tr>
+            <tr>
+                <td> Choices: </td>
+                <td>
+                    <div ng-repeat="c in selectedQ.Choices track by $index">
+                        <input ng-disabled="$parent.disableAnswers" type="radio" name="choice" ng-model="$parent.selectedAnswer" value="{{c}}" />
+                        <label>{{c}}</label>
+
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td> Score: {{selectedQ.Score}} point(s)</td>
+            </tr>
+        </table>
+        <table>
+            <tr ng-if="showExplain">
+                <td> <font color="red"> {{yourAnswer}}</font></td>
+            </tr>
+            <tr ng-if="showExplain">
+                <td> <font color="blue"> {{selectedQ.Explanation}} </font> </td>
+            </tr>
+            <tr>
+                <td>
+                    current question: {{currentQuestion}} from {{totalQuestions}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button ng-disabled="!questionsLoaded" ng-click="Solve()">Solve</button>
+                </td>
+            </tr>
+        </table>
+
+        
+    </div>
+</body>
+</html>

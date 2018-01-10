@@ -1,0 +1,953 @@
+[{
+	"ID": "1",
+	"Title": "The value of the expressions 4/(3*(2-1)) and 4/3*(2-1) is the same. State whether true or false.",
+	"Choices": "True~False",
+	"Answer": "True",
+	"Explanation": "Explanation: Although the presence of parenthesis does affect the order of precedence, in the case shown above, it is not making a difference. The result of both of these expressions is 1.333333333. Hence the statement is true.",
+	"Score": "1"
+}, {
+	"ID": "2",
+	"Title": "The value of the expression:~4 + 3 % 5",
+	"Choices": "4~7~2~0",
+	"Answer": "7",
+	"Explanation": "Explanation: The order of precedence is: %, +. Hence the expression above, on simplification results in 4 + 3 = 7. Hence the result is 7.",
+	"Score": "1"
+}, {
+	"ID": "3",
+	"Title": "Evaluate the expression given below if A= 16 and B = 15.~A % B // A",
+	"Choices": "0.0~0~1.0~1",
+	"Answer": "0",
+	"Explanation": "Explanation: The above expression is evaluated as: 16%15//16, which is equal to 1//16, which results in 0.",
+	"Score": "2"
+}, {
+	"ID": "4",
+	"Title": "Which of the following operators has its associativity from right to left?",
+	"Choices": "+~//~%~**",
+	"Answer": "**",
+	"Explanation": "Explanation: All of the operators shown above have associativity from left to right, except exponentiation operator (**) which has its associativity from right to left.",
+	"Score": "2"
+}, {
+	"ID": "5",
+	"Title": "What is the value of x if:~x = int(43.55+2/2)",
+	"Choices": "43~44~22~23",
+	"Answer": "44",
+	"Explanation": "Explanation: The expression shown above is an example of explicit conversion. It is evaluated as int(43.55+1) = int(44.55) = 44. Hence the result of this expression is 44.",
+	"Score": "3"
+}, {
+	"ID": "6",
+	"Title": "What is the value of the following expression?~2+4.00, 2**4.0",
+	"Choices": "(6.0, 16.0)~(6.00, 16.00)~(6, 16)~(6.00, 16.0)",
+	"Answer": "(6.0, 16.0)",
+	"Explanation": "Explanation: The result of the expression shown above is (6.0, 16.0). This is because the result is automatically rounded off to one decimal place.",
+	"Score": "2"
+}, {
+	"ID": "7",
+	"Title": "Which of the following is the truncation division operator?",
+	"Choices": "/~%~//~|",
+	"Answer": "//",
+	"Explanation": "Explanation: // is the operator for truncation division. It it called so because it returns only the integer part of the quotient, truncating the decimal part. For example: 20//3 = 6.",
+	"Score": "1"
+}, {
+	"ID": "8",
+	"Title": "What are the values of the following expressions:~2**(3**2)~(2**3)**2~2**3**2",
+	"Choices": "64, 512, 64~64, 64, 64~512, 512, 512~512, 64, 512",
+	"Answer": "512, 64, 512",
+	"Explanation": "Explanation: Expression 1 is evaluated as: 2**9, which is equal to 512.Expression 2 is evaluated as 8**2, which is equal to 64. The last expression is evaluated as 2**(3**2). This is because the associativity of ** operator is from right to left. Hence the result of the third expression is 512.",
+	"Score": "3"
+}, {
+	"ID": "9",
+	"Title": "What is the value of the following expression:~8/4/2, 8/(4/2)",
+	"Choices": "(1.0, 4.0)~(1.0, 1.0)~(4.0. 1.0)~(4.0, 4.0)",
+	"Answer": "(1.0, 4.0)",
+	"Explanation": "Explanation: The above expressions are evaluated as: 2/2, 8/2, which is equal to (1.0, 4.0).",
+	"Score": "2"
+}, {
+	"ID": "10",
+	"Title": "What is the value of the following expression:~float(22//3+3/3)",
+	"Choices": "8~8.0~8.3~8.33",
+	"Answer": "8.0",
+	"Explanation": "Explanation: The expression shown above is evaluated as: float( 7+1) = float(8) = 8.0. Hence the result of this expression is 8.0.",
+	"Score": "2"
+}, {
+	"ID": "11",
+	"Title": "What is the output of the following expression:~print(4.00/(2.0+2.0))",
+	"Choices": "Error~1.0~1.00~1",
+	"Answer": "1.0",
+	"Explanation": "Explanation: The result of the expression shown above is 1.0 because print rounds off digits.",
+	"Score": "3"
+}, {
+	"ID": "12",
+	"Title": "Consider the expression given below. The value of X is:~X = 2+9*((3*12)-8)/10",
+	"Choices": "30.0~30.8~28.4~27.2",
+	"Answer": "27.2",
+	"Explanation": "Explanation: The expression shown above is evaluated as: 2+9*(36-8)/10, which simplifies to give 2+9*(2.8), which is equal to 2+25.2 = 27.2. Hence the result of this expression is 27.2.",
+	"Score": "3"
+}, {
+	"ID": "13",
+	"Title": "Which of the following expressions involves coercion when evaluated in Python?",
+	"Choices": "4.7 – 1.5~7.9 * 6.3~1.7 % 2~3.4 + 4.6",
+	"Answer": "1.7 % 2",
+	"Explanation": "Explanation: Coercion is the implicit (automatic) conversion of operands to a common type. Coercion is automatically performed on mixed-type expressions. The expression 1.7 % 2 is evaluated as 1.7 % 2.0 (that is, automatic conversion of int to float).",
+	"Score": "3"
+}, {
+	"ID": "14",
+	"Title": "What is the value of the following expression:~24//6%3, 24//4//2",
+	"Choices": "(1,3)~(0,3)~(1,0)~(3,1)",
+	"Answer": "(1,3)",
+	"Explanation": "Explanation: The expressions are evaluated as: 4%3 and 6//2 respectively. This results in the answer (1,3). This is because the associativity of both of the expressions shown above is left to right.",
+	"Score": "3"
+}, {
+	"ID": "15",
+	"Title": "Which among the following list of operators has the highest precedence?~+, -, **, %, /, <<, >>, |",
+	"Choices": "<<, >>~**~|~%",
+	"Answer": "**",
+	"Explanation": "Explanation: The highest precedence is that of the exponentiation operator, that is of **.",
+	"Score": "4"
+}, {
+	"ID": "16",
+	"Title": "What is the value of the expression:~float(4+int(2.39)%2)",
+	"Choices": "5.0~5~4.0~4",
+	"Answer": "4.0",
+	"Explanation": "Explanation: The above expression is an example of explicit conversion. It is evaluated as: float(4+int(2.39)%2) = float(4+2%2) = float(4+0) = 4.0. Hence the result of this expression is 4.0.",
+	"Score": "3"
+}, {
+	"ID": "17",
+	"Title": "Which of the following expressions is an example of type conversion?",
+	"Choices": "4.0 + float(3)~5.3 + 6.3~5.0 + 3~3 + 7",
+	"Answer": "4.0 + float(3)",
+	"Explanation": "Explanation: Type conversion is nothing but explicit conversion of operands to a specific type. Options ‘b’ and ‘c’ are examples of implicit conversion whereas option ‘a’ is an example of explicit conversion or type conversion.",
+	"Score": "1"
+}, {
+	"ID": "18",
+	"Title": "Which of the following expressions results in an error?",
+	"Choices": "float(‘10’)~int(‘10’)~float(’10.8’)~int(’10.8’)",
+	"Answer": "int(’10.8’)",
+	"Explanation": "Explanation: All of the above examples show explicit conversion. However the expression int(’10.8’) results in an error.",
+	"Score": "3"
+}, {
+	"ID": "19",
+	"Title": "What is the value of the expression:~4+2**5//10",
+	"Choices": "3~7~77~0",
+	"Answer": "7",
+	"Explanation": "Explanation: The order of precedence is: **, //, +. The expression 4+2**5//10 is evaluated as 4+32//10, which is equal to 4+3 = 7. Hence the result of the expression shown above is 7.",
+	"Score": "2"
+}, {
+	"ID": "20",
+	"Title": "The expression 2**2**3 is evaluates as: (2**2)**3. State whether this statement is true or false.",
+	"Choices": "True~False",
+	"Answer": "False",
+	"Explanation": "Explanation: The value of the expression (2**2)**3 = 4**3 = 64. When the expression 2**2**3 is evaluated in python, we get the result as 256, because this expression is evaluated as 2**(2**3). This is because the associativity of exponentiation operator (**) is from right to left and not from left to right.",
+	"Score": "3"
+}, {
+	"ID": "21",
+	"Title": "What is the result of the snippet of code shown below if x=1?~x<<2",
+	"Choices": "8~1~2~4",
+	"Answer": "4",
+	"Explanation": "Explanation: The binary form of 1 is 0001. The expression x<<2 implies we are performing bitwise left shift on x. This shift yields the value: 0100, which is the binary form of the number 4.",
+	"Score": "3"
+}, {
+	"ID": "22",
+	"Title": "The output of the expression is:~bin(29)",
+	"Choices": "‘0b10111’~‘0b11101’~‘0b11111’~‘0b11011’",
+	"Answer": "‘0b11101’",
+	"Explanation": "Explanation: The binary form of the number 29 is 11101. Hence the output of this expression is ‘0b11101’.",
+	"Score": "4"
+}, {
+	"ID": "23",
+	"Title": "What is the value of x if:~x>>2=2",
+	"Choices": "8~4~2~1",
+	"Answer": "8",
+	"Explanation": "Explanation: When the value of x is equal to 8 (1000), then x>>2 (bitwise right shift) yields the value 0010, which is equal to 2. Hence the value of x is 8.",
+	"Score": "4"
+}, {
+	"ID": "24",
+	"Title": "To find the decimal value of 1111, that is 15, we can use the function:",
+	"Choices": "int(1111,10)~int(‘1111’,10)~int(1111,2)~int(‘1111’,2)",
+	"Answer": "int(‘1111’,2)",
+	"Explanation": "Explanation: The expression int(‘1111’,2) gives the result 15. The expression int(‘1111’, 10) will give the result 1111.",
+	"Score": "4"
+}, {
+	"ID": "25",
+	"Title": "What is the result of the expression if x=15 and y=12:~x & y",
+	"Choices": "b1101~0b1101~12~1101",
+	"Answer": "12",
+	"Explanation": "Explanation: The symbol ‘&’ represents bitwise AND. This gives 1 if both the bits are equal to 1, else it gives 0. The binary form of 15 is 1111 and that of 12 is 1100. Hence on performing the bitwise AND operation, we get 1100, which is equal to 12.",
+	"Score": "4"
+}, {
+	"ID": "26",
+	"Title": "Which of the following expressions results in an error?",
+	"Choices": "int(1011)~int(‘1011’,23)~int(1011,2)~int(‘1011’)",
+	"Answer": "int(1011,2)",
+	"Explanation": "Explanation: The expression int(1011,2) results in an error. Had we written this expression as int(‘1011’,2), then there would not be an error.",
+	"Score": "4"
+}, {
+	"ID": "27",
+	"Title": "Which of the following represents the bitwise XOR operator?",
+	"Choices": "&~^~|~!",
+	"Answer": "^",
+	"Explanation": "Explanation: The ^ operator represent bitwise XOR operation. &: bitwise AND, | : bitwise OR and ! represents bitwise NOT.",
+	"Score": "3"
+}, {
+	"ID": "28",
+	"Title": "What is the value of this expression?~bin(0x8)",
+	"Choices": "‘0bx1000’~8~1000~‘0b1000’",
+	"Answer": "‘0b1000’",
+	"Explanation": "Explanation: The prefix 0x specifies that the value is hexadecimal in nature. When we convert this hexadecimal value to binary form, we get the result as: ‘0b1000’.",
+	"Score": "4"
+}, {
+	"ID": "29",
+	"Title": "What is the result of the expression:~0x35 | 0x75",
+	"Choices": "115~116~117~118",
+	"Answer": "117",
+	"Explanation": "Explanation: The binary value of 0x35 is 110101 and that of 0x75 is 1110101. On OR-ing these two values we get the output as: 1110101, which is equal to 117. Hence the result of the above expression is 117.",
+	"Score": "5"
+}, {
+	"ID": "30",
+	"Title": "It is not possible for the two’s complement value to be equal to the original value in any case. State whether this statement is true or false.",
+	"Choices": "True~False",
+	"Answer": "False",
+	"Explanation": "Explanation: In most cases the value of two’s complement is different from the original value. However, there are cases in which the two’s complement value may be equal to the original value. For example, the two’s complement of 10000000 is also equal to 10000000. Hence the statement is false.",
+	"Score": "5"
+}, {
+	"ID": "31",
+	"Title": "The one’s complement of 110010101 is:",
+	"Choices": "001101010~110010101~001101011~110010100",
+	"Answer": "001101010",
+	"Explanation": "Explanation: The one’s complement of a value is obtained by simply changing all the 1’s to 0’s and all the 0’s to 1’s. Hence the one’s complement of 110010101 is 001101010.",
+	"Score": "4"
+}, {
+	"ID": "32",
+	"Title": "Bitwise _________ gives 1 if either of the bits is 1 and 0 when both of the bits are 1.",
+	"Choices": "OR~AND~XOR~NOT",
+	"Answer": "XOR",
+	"Explanation": "Explanation: Bitwise XOR gives 1 if either of the bits is 1 and 0 when both of the bits are 1.",
+	"Score": "2"
+}, {
+	"ID": "33",
+	"Title": "The result of the expression shown below is:~4^12",
+	"Choices": "2~4~8~12",
+	"Answer": "8",
+	"Explanation": "Explanation: ^ is the XOR operator. The binary form of 4 is 0100 and that of 12 is 1100. Therefore, 0100^1100 is 1000, which is equal to 8.",
+	"Score": "3"
+}, {
+	"ID": "34",
+	"Title": "Any odd number on being AND-ed with ________ always gives 1. Hint: Any even number on being AND-ed with this value always gives 0.",
+	"Choices": "10~2~1~0",
+	"Answer": "1",
+	"Explanation": "Explanation: Any odd number on being AND-ed with 1 always gives 1. Any even number on being AND-ed with this value always gives 0.",
+	"Score": "5"
+}, {
+	"ID": "35",
+	"Title": "What is the value of this expression:~bin(10-2)+bin(12^4)",
+	"Choices": "0b10000~0b10001000~0b1000b1000~0b10000b1000",
+	"Answer": "0b10000b1000",
+	"Explanation": "Explanation: The output of bin(10-2)= 0b1000 and that of bin(12^4) is ob1000. Hence the output of the above expression is: 0b10000b1000.",
+	"Score": "5"
+}, {
+	"ID": "36",
+	"Title": "Which of the following expressions can be used to multiply a given number ‘a’ by 4?",
+	"Choices": "a<<2~a<<4~a>>2~a>>4",
+	"Answer": "a<<2",
+	"Explanation": "Explanation: Let us consider an example wherein a=2. The binary form of 2 is 0010. When we left shift this value by 2, we get 1000, the value of which is 16. Hence if we want to multiply a given number ‘a’ by 4, we can use the expression: a<<2.",
+	"Score": "4"
+}, {
+	"ID": "37",
+	"Title": "What is the output of the code show below if a=10 and b =20?~a=10~b=20~a=a^b~b=a^b~a=a^b~print(a,b)",
+	"Choices": "10 20~10 10~20 10~20 20",
+	"Answer": "20 10",
+	"Explanation": "Explanation: The code shown above is used to swap the contents of two memory locations using bitwise X0R operator. Hence the output of the code shown above is: 20 10.",
+	"Score": "5"
+}, {
+	"ID": "38",
+	"Title": "What is the two’s complement of -44?",
+	"Choices": "1011011~11010100~11101011~10110011",
+	"Answer": "11010100",
+	"Explanation": "Explanation: The binary form of -44 is 00101100. The one’s complement of this value is 11010011. On adding one to this we get: 11010100 (two’s complement).",
+	"Score": "5"
+}, {
+	"ID": "39",
+	"Title": "What is the output of the snippet of code shown below?~['hello', 'morning'][bool('')]",
+	"Choices": "error~no output~hello~morning",
+	"Answer": "hello",
+	"Explanation": "Explanation: The line of code shown above can be simplified to state that ‘hello’ should be printed if the argument passed to the Boolean function amounts to zero, else ‘morning’ will be printed.",
+	"Score": "5"
+}, {
+	"ID": "40",
+	"Title": "What is the output of the code shown?~['f', 't'][bool('spam')]",
+	"Choices": "t~f~No output~Error",
+	"Answer": "t",
+	"Explanation": "Explanation: The line of code can be translated to state that ‘f’ is printed if the argument passed to the Boolean function amount to zero. Else ‘t’ is printed. The argument given to the Boolean function in the above case is ‘spam’, which does not amount to zero. Hence the output is: t.",
+	"Score": "5"
+}, {
+	"ID": "41",
+	"Title": "What is the output of the following?~x = ['ab', 'cd']~for i in x:~i.upper()~print(x)",
+	"Choices": "[‘ab’, ‘cd’].~[‘AB’, ‘CD’].~[None, None].~none of mentioned",
+	"Answer": "[‘ab’, ‘cd’].",
+	"Explanation": "Explanation: The function upper() does not modify a string in place, it returns a new string which isn’t being stored anywhere.",
+	"Score": "5"
+}, {
+	"ID": "42",
+	"Title": "What is the output of the following?~i = 1~while True:~if i%3 == 0:~break~print(i)~~i + = 1",
+	"Choices": "1 2~1 2 3~error~none of mentioned",
+	"Answer": "error",
+	"Explanation": "Explanation: SyntaxError, there shouldn’t be a space between + and = in +=.",
+	"Score": "4"
+}, {
+	"ID": "43",
+	"Title": "What is the output of the following?~i = 1~while True:~if i%0O7 == 0:~break~print(i)~i += 1",
+	"Choices": "1 2 3 4 5 6~1 2 3 4 5 6 7~error~none of mentioned",
+	"Answer": "1 2 3 4 5 6",
+	"Explanation": "Explanation: Control exits the loop when i becomes 7.",
+	"Score": "4"
+}, {
+	"ID": "44",
+	"Title": "What is the output of the following?~i = 5~while True:~if i%0O11 == 0:~break~print(i)~i += 1",
+	"Choices": "5 6 7 8 9 10~5 6 7 8~5 6~error",
+	"Answer": "5 6 7 8",
+	"Explanation": "Explanation: 0O11 is an octal number.",
+	"Score": "5"
+}, {
+	"ID": "45",
+	"Title": "What is the output of the following?~i = 5~while True:~if i%0O9 == 0:~break~print(i)~i += 1",
+	"Choices": "5 6 7 8~5 6 7 8 9~5 6 7 8 ….~error",
+	"Answer": "error",
+	"Explanation": "Explanation: 9 isn’t allowed in an octal number.",
+	"Score": "5"
+}, {
+	"ID": "46",
+	"Title": "What is the output of the following?~i = 1~while True:~if i%2 == 0:~break~print(i)~i += 2",
+	"Choices": "1~1 2~1 2 3 4 5 6 …~1 3 5 7 9 11 …",
+	"Answer": "1 3 5 7 9 11 …",
+	"Explanation": "Explanation: The loop does not terminate since i is never an even number.",
+	"Score": "4"
+}, {
+	"ID": "47",
+	"Title": "What is the output of the following?~i = 2~while True:~if i%3 == 0:~break~print(i)~i += 2",
+	"Choices": "2 4 6 8 10 …~2 4~2 3~error",
+	"Answer": "2 4",
+	"Explanation": "Explanation: The numbers 2 and 4 are printed. The next value of i is 6 which is divisible by 3 and hence control exits the loop.",
+	"Score": "2"
+}, {
+	"ID": "48",
+	"Title": "What is the output of the following?~i = 1~while False:~if i%2 == 0:~break~print(i)~i += 2",
+	"Choices": "1~1 3 5 7 …~1 2 3 4 …~none of mentioned",
+	"Answer": "none of the mentioned",
+	"Explanation": "Explanation: Control does not enter the loop because of False.",
+	"Score": "2"
+}, {
+	"ID": "49",
+	"Title": "What is the output of the following?~True = False~while True:~print(True)~break",
+	"Choices": "True~False~None~none of mentioned",
+	"Answer": "none of the mentioned",
+	"Explanation": "Explanation: SyntaxError, True is a keyword and it’s value cannot be changed.",
+	"Score": "2"
+}, {
+	"ID": "50",
+	"Title": "What is the output when following statement is executed ?~>>>chr(ord('A'))",
+	"Choices": "A~B~a~Error",
+	"Answer": "A",
+	"Explanation": "Explanation: Execute in shell to verify.",
+	"Score": "3"
+}, {
+	"ID": "51",
+	"Title": "What is the output when following statement is executed ?~>>>print(chr(ord('b')+1))",
+	"Choices": "a~b~c~A",
+	"Answer": "c",
+	"Explanation": "Explanation: Execute in the shell to verify.",
+	"Score": "5"
+}, {
+	"ID": "52",
+	"Title": "Suppose s is “\\t\\tWorld\\n”, what is s.strip() ?",
+	"Choices": "\\t\\tWorld\\n~\\t\\tWorld\\n~\\t\\tWORLD\\n~World",
+	"Answer": "World",
+	"Explanation": "Explanation: Execute help(string.strip) to find details.",
+	"Score": "4"
+}, {
+	"ID": "53",
+	"Title": "The format function, when applied on a string returns :",
+	"Choices": "Error~int~bool~str",
+	"Answer": "str",
+	"Explanation": "Explanation: Format function returns a string.",
+	"Score": "3"
+}, {
+	"ID": "54",
+	"Title": "What is the output of “hello”+1+2+3 ?",
+	"Choices": "hello123~hello~Error~hello6",
+	"Answer": "Error",
+	"Explanation": "Explanation: Cannot concantenate str and int objects.",
+	"Score": "2"
+}, {
+	"ID": "55",
+	"Title": "What is the output when following code is executed ?~>>>names = ['Amir', 'Bear', 'Charlton', 'Daman']~>>>print(names[-1][-1])",
+	"Choices": "A~Daman~Error~n",
+	"Answer": "n",
+	"Explanation": "Explanation: Execute in the shell to verify.",
+	"Score": "3"
+}, {
+	"ID": "56",
+	"Title": "Suppose list1 is [3, 4, 5, 20, 5], what is list1.index(5) ?",
+	"Choices": "0~1~4~2",
+	"Answer": "2",
+	"Explanation": "Explanation: Execute help(list.index) to get details.",
+	"Score": "2"
+}, {
+	"ID": "57",
+	"Title": "Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1.count(5) ?",
+	"Choices": "0~4~1~2",
+	"Answer": "2",
+	"Explanation": "Explanation: Execute in the shell to verify.",
+	"Score": "2"
+}, {
+	"ID": "58",
+	"Title": "Which of the following functions will return the symmetric difference between two sets, x and y?",
+	"Choices": "x | y~x ^ y~x & y~x – y",
+	"Answer": "x & y",
+	"Explanation": "Explanation: The function x ^ y returns the symmetric difference between the two sets x and y. This is basically an XOR operation being performed on the two sets.",
+	"Score": "3"
+}, {
+	"ID": "59",
+	"Title": "What is the output of the snippet of code shown below?~z=set('abc$de')~'a' in z",
+	"Choices": "True~False~No output~Error",
+	"Answer": "True",
+	"Explanation": "Explanation: The code shown above is used to check whether a particular item is a part of a given set or not. Since ‘a’ is a part of the set z, the output is true. Note that this code would result in an error in the absence of the quotes",
+	"Score": "3"
+}, {
+	"ID": "60",
+	"Title": "What is the output of the following piece of code?~>>> a={'B':5,'A':9,'C':7}~>>> sorted(a)",
+	"Choices": "[‘A’,’B’,’C’].~[‘B’,’C’,’A’].~[5,7,9].~[9,5,7].",
+	"Answer": "[‘A’,’B’,’C’].",
+	"Explanation": "Explanation: Return a new sorted list of keys in the dictionary.",
+	"Score": "2"
+}, {
+	"ID": "61",
+	"Title": "What is the output of the following snippet of code?~>>> b={}~>>> all(b)",
+	"Choices": "{ }~False~True~exception thrown",
+	"Answer": "True",
+	"Explanation": "Explanation: Function all() returns True if all keys of the dictionary are true or if the dictionary is empty.",
+	"Score": "3"
+}, {
+	"ID": "62",
+	"Title": "Which of the following functions accepts only integers as arguments?",
+	"Choices": "ord()~min()~chr()~any()",
+	"Answer": "chr()",
+	"Explanation": "Explanation: The function chr() accepts only integers as arguments. The function ord() accepts only strings. The functions min() and max() can accept floating point as well as integer arguments.",
+	"Score": "2"
+}, {
+	"ID": "63",
+	"Title": "What is the output of the function shown below?~hex(15)",
+	"Choices": "f~0xF~0Xf~0xf",
+	"Answer": "0xf",
+	"Explanation": "Explanation: The function hex() is used to convert the given argument into its hexadecimal representation, in lower case. Hence the output of the function hex(15) is 0xf.",
+	"Score": "4"
+}, {
+	"ID": "1001",
+	"Title": "Which datatype is used to represent the absence of parameters?",
+	"Choices": "int~short~void~float",
+	"Answer": "void",
+	"Explanation": "Explanation: void will not return anything.",
+	"Score": "2"
+}, {
+	"ID": "1002",
+	"Title": "What does a escape code represent?",
+	"Choices": "alert~backslash~tab~form feed",
+	"Answer": "alert",
+	"Explanation": "Explanation: Because a is used to produce a beep sound.",
+	"Score": "4"
+}, {
+	"ID": "1003",
+	"Title": "Which type is best suited to represent the logical values?",
+	"Choices": "integer~boolean~character~all of mentioned",
+	"Answer": "boolean",
+	"Explanation": "Explanation: Logical values can be either true or false, so the boolean type is suited for it.",
+	"Score": "1"
+}, {
+	"ID": "1004",
+	"Title": "The value 132.54 can represented using which data type?",
+	"Choices": "double~void~int~bool",
+	"Answer": "double",
+	"Explanation": "Explanation: The given value is with decimal points, so float or double can be used.",
+	"Score": "1"
+}, {
+	"ID": "1005",
+	"Title": "When a language has the capability to produce new data type mean, it can be called as",
+	"Choices": "overloaded~extensible~encapsulated~reprehensible",
+	"Answer": "extensible",
+	"Explanation": "Explanation: Extensible is used to add new features to C++.",
+	"Score": "2"
+}, {
+	"ID": "1006",
+	"Title": "What is the value of the bool?~bool is_int(789.54)",
+	"Choices": "True~False~1~none of mentioned",
+	"Answer": "False",
+	"Explanation": "Explanation: The given number is a double not an integer, so the function returns 0 which is boolean false.",
+	"Score": "3"
+}, {
+	"ID": "1007",
+	"Title": "Which of the two operators ++ and — work for the bool datatype in C++?",
+	"Choices": "None~++~—~++ & —",
+	"Answer": "++",
+	"Explanation": "Explanation: Due to history of using integer values as booleans, if an integer is used as a boolean, then incrementing will mean that whatever its truth value before the operation, it will have a truth-value of true after it. However, it’s not possible to predict the result of — given knowledge only of the truth value of x, as it could result in false.",
+	"Score": "3"
+}, {
+	"ID": "1008",
+	"Title": "What will be the output of this program?~#include <iostream>~using namespace std;~int main()~{~char c = 74;~cout << c;~return 0;~}",
+	"Choices": "A~N~J~I",
+	"Answer": "J",
+	"Explanation": "Explanation: The literal value for 74 is J. So it will be printing J.",
+	"Score": "3"
+}, {
+	"ID": "1009",
+	"Title": "How do we represent a wide character of the form wchar_t?",
+	"Choices": "L’a’~l’a’~L[a].~la",
+	"Answer": "L’a’",
+	"Explanation": "Explanation: A wide character is always indicated by immediately preceding the character literal by an L.",
+	"Score": "4"
+}, {
+	"ID": "1010",
+	"Title": "What is the output of this program?~#include <stdio.h>~int main()~{~char a = '\\012';~~printf(\"%d\", a);~return 0;~}",
+	"Choices": "Compiler error~12~10~Empty",
+	"Answer": "10",
+	"Explanation": "Explanation: The value ‘\\012’ means the character with value 12 in octal, which is decimal 10.",
+	"Score": "5"
+}, {
+	"ID": "1011",
+	"Title": "Suppose in a hypothetical machine, the size of char is 32 bits. What would sizeof(char) return?",
+	"Choices": "4~1~Imp. dependent~Machine dependent",
+	"Answer": "1",
+	"Explanation": "Explanation: The standard does NOT require a char to be 8-bits, but does require that sizeof(char) return 1.",
+	"Score": "5"
+}, {
+	"ID": "1012",
+	"Title": "Implementation dependent aspects about an implementation can be found in ____",
+	"Choices": "<implementation>~<limits>~<limit>~<numeric>",
+	"Answer": "<limits>",
+	"Explanation": "Explanation: The limit header holds the details of the machine dependent details.",
+	"Score": "5"
+}, {
+	"ID": "1013",
+	"Title": "The size of an object or a type can be determined using which operator?",
+	"Choices": "malloc~sizeof~malloc~calloc",
+	"Answer": "sizeof",
+	"Explanation": "Explanation: The sizeof operator gives the size of the object or type.",
+	"Score": "2"
+}, {
+	"ID": "1014",
+	"Title": "What is the output of the following program?~#include <iostream>~using namespace std;~int main()~{~int num = 0x20 + 020 + 20;~cout << sizeof(num)<<'\\n';~return 0;~}",
+	"Choices": "2~4~Depends on compiler~Garbage",
+	"Answer": "Depends on compiler",
+	"Explanation": "Explanation: The sum of three numbers are belongs to different number systems, so the result is typecasted into integer.~Output:~$ g++ size.cpp~$ a.out~4",
+	"Score": "5"
+}, {
+	"ID": "1015",
+	"Title": "What is the output of the following program?~#include <iostream>~using namespace std;~int main ( )~{~static double i;~i = 20;~cout << sizeof(i);~return 0;~}",
+	"Choices": "4~2~8~garbage",
+	"Answer": "8",
+	"Explanation": "Explanation: The size of the double data type is 8.~$ g++ size1.cpp~$ a.out~8",
+	"Score": "4"
+}, {
+	"ID": "1016",
+	"Title": "What would be the output of the following program (in 32-bit systems)?~#include <iostream>~using namespace std;~int main()~{~cout << sizeof(char);~cout << sizeof(int);~cout << sizeof(float);~return 0;~}",
+	"Choices": "1 4 4~1 4 8~1 8 8~none of mentioned",
+	"Answer": "1 4 4",
+	"Explanation": "Explanation: Character is 1 byte, integer 4 bytes and float 4 bytes.",
+	"Score": "5"
+}, {
+	"ID": "1017",
+	"Title": "To which of these enumerators can be assigned?",
+	"Choices": "integer~negative~enumerator~all of mentioned",
+	"Answer": "all of mentioned",
+	"Explanation": "Explanation: Since enumerators evaluate to integers, and integers can be assigned to enumerators, enumerators can be assigned to other enumerators.",
+	"Score": "4"
+}, {
+	"ID": "1018",
+	"Title": "Which variable does equals in size with enum variable?",
+	"Choices": "int variable~float variable~string variable~none of mentioned",
+	"Answer": "int variable",
+	"Explanation": "Explanation: The enum variable are converted to integer and stored by compiler. So both are equal in size.",
+	"Score": "4"
+}, {
+	"ID": "1019",
+	"Title": "Which of the following accesses the seventh element stored in array?",
+	"Choices": "array[6];~array[7];~array(7);~array;",
+	"Answer": "array[6];",
+	"Explanation": "Explanation: The array location starts from zero, So it can accessed by array[6].",
+	"Score": "1"
+}, {
+	"ID": "1020",
+	"Title": "Which of the following correctly declares an array?",
+	"Choices": "int array[10];~int array;~array{10};~array array[10];",
+	"Answer": "int array[10];",
+	"Explanation": "Explanation: Because array variable and values need to be declared after the datatype only.",
+	"Score": "1"
+}, {
+	"ID": "1021",
+	"Title": "What is the output of this program?~#include <stdio.h>~using namespace std;~int main()~{~int a = 5, b = 10, c = 15;~int arr[3] = {&a, &b, &c};~cout << *arr[*arr[1] - 8];~return 0;~}",
+	"Choices": "15~18~garbage value~compile time error",
+	"Answer": "compile time error",
+	"Explanation": "Explanation: The conversion is invalid in this array. So it will arise error. The following compilation error will be raised:~cannot convert from ‘int *’ to ‘int’",
+	"Score": "2"
+}, {
+	"ID": "1022",
+	"Title": "Void pointer can point to which type of objects?",
+	"Choices": "int~float~double~all of mentioned",
+	"Answer": "all of mentioned",
+	"Explanation": "Explanation: Because it doesn’t know the type of object it is pointing to, So it can point to all objects.",
+	"Score": "2"
+}, {
+	"ID": "1023",
+	"Title": "What will be used when terminating a structure?",
+	"Choices": ":~}~;~;;",
+	"Answer": ";",
+	"Explanation": "Explanation: While terminating a structure, a semi colon is used to end this up.",
+	"Score": "1"
+}, {
+	"ID": "1024",
+	"Title": "The declaration of structure is also called as?",
+	"Choices": "sructure creator~structure signifier~structure specifier~none of mentioned",
+	"Answer": "structure specifier",
+	"Explanation": "Explanation: The structure declaration with open and close braces and with a semicolon is also called structure specifier.",
+	"Score": "2"
+}, {
+	"ID": "1025",
+	"Title": "Which of the following accesses a variable in structure *b?",
+	"Choices": "b->var;~b.var;~b-var;~b>var;",
+	"Answer": "b->var;",
+	"Explanation": "Explanation: Because in a structure pointer, the data element is declared as above only.",
+	"Score": "1"
+}, {
+	"ID": "1026",
+	"Title": "Which operator is having the highest precedence?",
+	"Choices": "postfix~unary~shift~equality",
+	"Answer": "postfix",
+	"Explanation": "Explanation: The operator which is having highest precedence is postfix and lowest is equality.",
+	"Score": "3"
+}, {
+	"ID": "1027",
+	"Title": "What is this operator called ?: ?",
+	"Choices": "conditional~relational~casting operator~none of mentioned",
+	"Answer": "conditional",
+	"Explanation": "Explanation: In this operator, if the condition is true means, it will return the first operator, otherwise second operator.",
+	"Score": "1"
+}, {
+	"ID": "1028",
+	"Title": "How many sequence of statements are present in c++?",
+	"Choices": "4~3~5~6",
+	"Answer": "5",
+	"Explanation": "Explanation: There are five sequence of statements. They are Preprocessor directives, Comments, Declarations, Function Declarations, Executable statements.",
+	"Score": "3"
+}, {
+	"ID": "1029",
+	"Title": "How many types of loops are there?",
+	"Choices": "4~2~3~1",
+	"Answer": "4",
+	"Explanation": "Explanation: There are four types of loop. They are while, do while, nested, for loop.",
+	"Score": "1"
+}, {
+	"ID": "1030",
+	"Title": "Which is more effective while calling the functions?",
+	"Choices": "call by value~call by reference~call by pointer~none of mentioned",
+	"Answer": "call by reference",
+	"Explanation": "Explanation: In the call by reference, it will just copy the address of the variable to access it, so it will reduce the memory in accessing it.",
+	"Score": "2"
+}, {
+	"ID": "1031",
+	"Title": "How many minimum number of functions are need to be presented in c++?",
+	"Choices": "0~1~2~3",
+	"Answer": "1",
+	"Explanation": "Explanation: The main function is the mandatory part, it is needed for the execution of the program to start.",
+	"Score": "1"
+}, {
+	"ID": "1032",
+	"Title": "How many ways of passing a parameter are there in c++?",
+	"Choices": "1~2~3~4",
+	"Answer": "3",
+	"Explanation": "Explanation: There are three ways of passing a parameter. They are pass by value,pass by reference and pass by pointer.",
+	"Score": "2"
+}, {
+	"ID": "1033",
+	"Title": "Which is used to keep the call by reference value as intact?",
+	"Choices": "static~const~absolute~none of mentioned",
+	"Answer": "const",
+	"Explanation": "Explanation: Because const will not change the value of the variables during the execution.",
+	"Score": "2"
+}, {
+	"ID": "1034",
+	"Title": "How many characters are specified in the ASCII scheme?",
+	"Choices": "64~128~256~none of mentioned",
+	"Answer": "128",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1035",
+	"Title": "Select the right option.~Given the variables p, q are of char type and r, s, t are of int type~1. t = (r * s) / (r + s);~2. t = (p * q) / (r + s);",
+	"Choices": "1 true but 2 false~1 false and 2 true~both 1 and 2 true~both 1 and 2 false",
+	"Answer": "both 1 and 2 true",
+	"Explanation": "Explanation: Every character constant has an integer value. Also char belongs to the integral type hence arithmetic and logical operations can be performed on them.",
+	"Score": "4"
+}, {
+	"ID": "1036",
+	"Title": "Which of the following belongs to the set of character types?",
+	"Choices": "char~wchar_t~only a~both wchar_t , char",
+	"Answer": "both wchar_t , char",
+	"Explanation": "Explanation: wchar_t and char is used to represent wide character and character.",
+	"Score": "3"
+}, {
+	"ID": "1037",
+	"Title": "What constant defined in <climits> header returns the number of bits in a char?",
+	"Choices": "CHAR_SIZE~SIZE_CHAR~BIT_CHAR~CHAR_BIT",
+	"Answer": "CHAR_BIT",
+	"Explanation": "Explanation: None.",
+	"Score": "3"
+}, {
+	"ID": "1038",
+	"Title": "The switch statement is also called as?",
+	"Choices": "choosing structure~selective structure~certain structure~none of mentioned",
+	"Answer": "selective structure",
+	"Explanation": "Explanation: The switch statement is used to choose the certain code to execute, So it is also called as selective structure.",
+	"Score": "3"
+}, {
+	"ID": "1039",
+	"Title": "The destination statement for the goto label is identified by what label?",
+	"Choices": "$~@~*~:",
+	"Answer": ":",
+	"Explanation": "Explanation: None.",
+	"Score": "1"
+}, {
+	"ID": "1040",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~int main()~{~int i;~for (i = 0; i < 10; i++);~{~cout << i;~}~return 0;~}",
+	"Choices": "0123456789~10~012345678910~compile time error",
+	"Answer": "10",
+	"Explanation": "Explanation: for loop with a semicolon is called as body less for loop. It is used only for incrementing the variable values. So in this program the value is incremented and printed as 10.",
+	"Score": "2"
+}, {
+	"ID": "1041",
+	"Title": "How many types of comments are there in c++?",
+	"Choices": "1~2~3~4",
+	"Answer": "2",
+	"Explanation": "Explanation: There are two types of comments. They are double slash and slash stared.",
+	"Score": "1"
+}, {
+	"ID": "1042",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~int main()~{~/* this is comment*~cout << \"hello world\";~return 0;~}",
+	"Choices": "hello world~hello~compile time error~none of mentioned",
+	"Answer": "compile time error",
+	"Explanation": "Explanation: Because the slash should need to be forward not backward.",
+	"Score": "2"
+}, {
+	"ID": "1043",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~int add(int a, int b);~int main()~{~int i = 5, j = 6;~cout << add(i, j) << endl;~return 0;~}~int add(int a, int b )~{~int sum = a + b;~a = 7;~return a + b;~}",
+	"Choices": "11~12~13~compile time error",
+	"Answer": "13",
+	"Explanation": "Explanation: The value of a has been changed to 7, So it returns as 13.",
+	"Score": "2"
+}, {
+	"ID": "1044",
+	"Title": "which of the following is used to terminate the function declaration?",
+	"Choices": ":~)~;~none of mentioned",
+	"Answer": ";",
+	"Explanation": "Explanation: None.",
+	"Score": "1"
+}, {
+	"ID": "1045",
+	"Title": "How many max number of arguments can present in function in c99 compiler?",
+	"Choices": "99~90~102~127",
+	"Answer": "127",
+	"Explanation": "Explanation: None.",
+	"Score": "3"
+}, {
+	"ID": "1046",
+	"Title": "By default how the value are passed in c++?",
+	"Choices": "call by value~call by reference~call by pointer~none of mentioned",
+	"Answer": "call by value",
+	"Explanation": "Explanation: None.",
+	"Score": "1"
+}, {
+	"ID": "1047",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~void copy (int& a, int& b, int& c)~{~a *= 2;~b *= 2;~c *= 2;~}~int main ()~{~int x = 1, y = 3, z = 7;~copy (x, y, z);~cout << \"x =\" << x << \", y =\" << y << \", z =\" << z;~return 0;~}",
+	"Choices": "2 5 10~2 4 5~2 6 14~none of mentioned",
+	"Answer": "2 6 14",
+	"Explanation": "Explanation: Because we multiplied the values by 2 in the copy function.",
+	"Score": "4"
+}, {
+	"ID": "1048",
+	"Title": "What is the new value of x?~#include <iostream>~using namespace std;~void fun(int &x)~{~x = 20;~}~int main()~{~int x = 10;~fun(x);~cout << \"New value of x is \" << x;~return 0;~}",
+	"Choices": "10~20~15~none of mentioned",
+	"Answer": "20",
+	"Explanation": "Explanation: As we passed by reference, the value is changed and it is returned as 20.",
+	"Score": "2"
+}, {
+	"ID": "1049",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~void square (int *x)~{~*x = (*x + 1) * (*x);~}~int main ( )~{~int num = 10;~square(&num);~cout << num;~return 0;~}",
+	"Choices": "100~compile time error~144~110",
+	"Answer": "110",
+	"Explanation": "Explanation: We have increased the x value in operand as x+1, so it will return as 110.",
+	"Score": "4"
+}, {
+	"ID": "1050",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~void Sum(int a, int b, int & c)~{~a = b + c;~b = a + c;~c = a + b;~}~int main()~{~int x = 2, y =3;~Sum(x, y, y);~cout << x << \" \" << y;~return 0;~}",
+	"Choices": "2 3~6 9~2 15~compile time error",
+	"Answer": "2 15",
+	"Explanation": "Explanation: We have passed three values and it will manipulate according to the given condition and yield the result as 2 15",
+	"Score": "3"
+}, {
+	"ID": "1051",
+	"Title": "How many types of returning values are present in c++?",
+	"Choices": "1~2~3~4",
+	"Answer": "3",
+	"Explanation": "Explanation: The three types of returning values are return by value, return by reference and return by address.",
+	"Score": "3"
+}, {
+	"ID": "1052",
+	"Title": "What will you use if you are not intended to get a return value?",
+	"Choices": "static~const~volatile~void",
+	"Answer": "void",
+	"Explanation": "Explanation: Void is used to not to return anything.",
+	"Score": "2"
+}, {
+	"ID": "1053",
+	"Title": "Where does the return statement returns the execution of the program?",
+	"Choices": "main function~caller function~same function~none of mentioned",
+	"Answer": "caller function",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1054",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~double & WeeklyHours()~{~double h = 46.50;~double &hours = h;~return hours;~}~int main()~{~double hours = WeeklyHours();~cout << \"Weekly Hours: \" << hours;~return 0;~}",
+	"Choices": "46.5~6.50~compile time error~none of mentioned",
+	"Answer": "46.5",
+	"Explanation": "Explanation: We are returning the value what we get as input.",
+	"Score": "1"
+}, {
+	"ID": "1055",
+	"Title": "In which of the following we cannot overload the function?",
+	"Choices": "return function~caller~called function~none of mentioned",
+	"Answer": "return function",
+	"Explanation": "Explanation: While overloading the return function, it will rise a error, So we can’t overload the return function.",
+	"Score": "3"
+}, {
+	"ID": "1056",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~void print(int i)~{~cout << i;~}~void print(double  f)~{~cout << f;~}~int main(void)~{~print(5);~print(500.263);~return 0;~}",
+	"Choices": "5500.263~500.2635~500.263~none of mentioned",
+	"Answer": "5500.263",
+	"Explanation": "Explanation: In this program, we are printing the values and the values will be print(5) will be printed first because of the order of the execution.",
+	"Score": "2"
+}, {
+	"ID": "1057",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~int Add(int X, int Y, int Z)~{~return X + Y;~}~double Add(double X, double Y, double Z)~{~return X + Y;~}~int main()~{~cout << Add(5, 6);~cout << Add(5.5, 6.6);~return 0;~}",
+	"Choices": "11 12.1~12.1 11~11 12~compile time error",
+	"Answer": "compile time error",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1058",
+	"Title": "Which value will it take when both user and default values are given?",
+	"Choices": "user value~default value~custom value~none of mentioned",
+	"Answer": "user value",
+	"Explanation": "Explanation: The default value will be used when the user value is not given, So in this case, the user value will be taken.",
+	"Score": "1"
+}, {
+	"ID": "1059",
+	"Title": "What is the default return type of a function ?",
+	"Choices": "int~void~float~char",
+	"Answer": "void",
+	"Explanation": "Explanation: None.",
+	"Score": "1"
+}, {
+	"ID": "1060",
+	"Title": "Which header file is used to pass unknown number of arguments to function?",
+	"Choices": "stdlib.h~string.h~stdarg.h~none of mentioned",
+	"Answer": "stdarg.h",
+	"Explanation": "Explanation: Because the cstdarg defines this header file to process the unknown number of arguments.",
+	"Score": "3"
+}, {
+	"ID": "1061",
+	"Title": "What is the maximum number of arguments or parameters that can be~present in one function call?",
+	"Choices": "64~256~255~16",
+	"Answer": "256",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1062",
+	"Title": "Which header file should you include if you are to develop a function that can accept variable number of arguments?",
+	"Choices": "varag.h~stdlib.h~stdio.h~stdarg.h",
+	"Answer": "stdarg.h",
+	"Explanation": "Explanation: None.",
+	"Score": "3"
+}, {
+	"ID": "1063",
+	"Title": "What will initialize the list of arguments in stdarg.h header file?",
+	"Choices": "va_list~va_start~va_arg~none of mentioned",
+	"Answer": "va_start",
+	"Explanation": "Explanation: None.",
+	"Score": "3"
+}, {
+	"ID": "1064",
+	"Title": "What is the default calling convention for a compiler in c++?",
+	"Choices": "__cdecl~__stdcall~__pascal~__fastcall",
+	"Answer": "__cdecl",
+	"Explanation": "Explanation: None.",
+	"Score": "4"
+}, {
+	"ID": "1065",
+	"Title": "To which does the function pointer point to?",
+	"Choices": "variable~constants~function~absolute variables",
+	"Answer": "function",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1066",
+	"Title": "What is the output of this program?~#include <iostream>~using namespace std;~int func (int a, int b)~{~cout << a;~cout << b;~return 0;~}~int main(void)~{~int(*ptr)(char, int);~ptr = func;~func(2, 3);~ptr(2, 3);~return 0;~}",
+	"Choices": "2323~232~23~compile time error",
+	"Answer": "compile time error",
+	"Explanation": "Explanation: In this program, we can’t do the casting from char to int, So it is raising an error.",
+	"Score": "3"
+}, {
+	"ID": "1067",
+	"Title": "What are the mandatory part to present in function pointers?",
+	"Choices": "&~retrun values~data types~none of mentioned",
+	"Answer": "data types",
+	"Explanation": "Explanation: The data types are mandatory for declaring the variables in the function pointers.",
+	"Score": "3"
+}, {
+	"ID": "1068",
+	"Title": "which of the following can be passed in function pointers?",
+	"Choices": "variables~data types~functions~none of mentioned",
+	"Answer": "functions",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1069",
+	"Title": "which keyword is used to define the macros in c++?",
+	"Choices": "macro~define~#define~none of mentioned",
+	"Answer": "#define",
+	"Explanation": "Explanation: None.",
+	"Score": "2"
+}, {
+	"ID": "1070",
+	"Title": "Which symbol is used to declare the preprocessor directives?",
+	"Choices": "#~$~*~^",
+	"Answer": "#",
+	"Explanation": "Explanation: None.",
+	"Score": "1"
+}, {
+	"ID": "1071",
+	"Title": "How many types of macros are there in c++?",
+	"Choices": "1~2~3~4",
+	"Answer": "2",
+	"Explanation": "Explanation: There are two types of macros. They are object-like and function-like.",
+	"Score": "3"
+}, {
+	"ID": "1072",
+	"Title": "What is the mandatory preprosessor directive for c++?",
+	"Choices": "#define <iostream>~#include <iostream>~#undef <iostream>~none of mentioned",
+	"Answer": "#include <iostream>",
+	"Explanation": "Explanation: For a c++ program to execute, we need #include<iostream>.",
+	"Score": "1"
+}, {
+	"ID": "1073",
+	"Title": "What is the other name of the macro?",
+	"Choices": "scripted directive~executed directive~link directive~none of mentioned",
+	"Answer": "scripted directive",
+	"Explanation": "Explanation: When the compiler encounters a previously defined macro, it will take the result from that execution itself.",
+	"Score": "4"
+}]
